@@ -1,6 +1,8 @@
-function Header() {
+export default function Header() {
     return (
-        <h1>The Villanova Belles</h1>
+        <div>
+            <h1>The Villanova Belles</h1>
+        </div>
     )
 }
 
