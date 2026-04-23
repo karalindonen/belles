@@ -1,0 +1,38 @@
+{
+    "members": {
+        "memberId1": {
+            "name": "Maya Harner",
+            "year": 2028,
+            "class": "Class of 2028",
+            "major(s)": "Computer Engineering",
+            "minor(s)": ["Computer Science", "Theatre"],
+            "musicPart": "Soprano",
+            "position": "Music Director",
+            "socials": "fffff"
+        }
+    },
+    "contactInfo":{
+        "email": "fkff",
+        "instagram": "fdf",
+        "youtube": "gg",
+        "tiktok": "fgf",
+        "spotify": "f",
+        "facebook": "ff",
+        "vuSPA": "gf"
+    },
+    "musicMetadata": {
+        "musicId1": {
+            "title": "f",
+            "artist": "g",
+            "arrangement": "g",
+            "vocal percussion": "f",
+            "soloist(s)": ["fff"],
+            "spotify": ""
+        }
+    },
+    "memberMusicLists": {
+        "memberId1": {
+           "musicId1" : false
+        }
+    }
+}
