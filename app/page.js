@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Hero from "./hero";
+import Header from "./function";
 
 export default function Home(){
   return(
     <div>
-      <Hero />
+      <Header />
       <p>This is the Villanova Belles</p>
     </div>
   );
