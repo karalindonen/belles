@@ -6,7 +6,8 @@ export default function Home(){
   return(
     <div>
       <Header />
-      <p>This is the Villanova Belles</p>
+      <HomePage />
+      <Footer />
     </div>
   );
 }
