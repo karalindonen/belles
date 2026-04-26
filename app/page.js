@@ -1,13 +1,12 @@
+import React from 'react';
+import Navbar from './Navbar';
 import Image from "next/image";
 import Hero from "./hero";
-import Header from "./function";
 
 export default function Home(){
   return(
     <div>
-      <Header />
-      <HomePage />
-      <Footer />
+      <Navbar />
     </div>
   );
 }
