@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css'; 
+import About from "./about";
+
 
 const Navbar = () => {
   return (
@@ -17,7 +19,7 @@ const Navbar = () => {
           <li><a href="/music">Music</a></li>
           <li><a href="/performances">Performances</a></li>
           <li><a href="/gallery">Gallery</a></li>
-          <li><a href = "/contact">Contact</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </nav>
