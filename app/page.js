@@ -2,8 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Image from "next/image";
 import Hero from "./hero";
-import About from "./about";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import About from "./about/page";
 /*import { GoogleOAuthProvider } from '@react-oauth/google';
 
 root.render (
@@ -15,18 +14,7 @@ root.render (
 
 export default function Home(){
   return(
-    <BrowserRouter>
-      <Navbar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/members" element={<About />} />
-        <Route path="/music" element={<About />} />
-        <Route path="/performances" element={<About />} />
-        <Route path="/gallery" element={<About />} />
-        <Route path="/contact" element={<About />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+    </div>
   );
 }
