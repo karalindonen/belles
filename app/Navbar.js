@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'; 
 import About from "./about";
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -13,13 +14,13 @@ const Navbar = () => {
       </div>
       <div className="navbar-center">
         <ul className="nav-links">
-          <li><a href="/page">Home</a></li>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/members">Members</a></li>
-          <li><a href="/music">Music</a></li>
-          <li><a href="/performances">Performances</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><NavLink to="/" end>Home</NavLink></li>
+          <li><NavLink to="/about">About Us</NavLink></li>
+          <li><NavLink to="/members">Members</NavLink></li>
+          <li><NavLink to="/music">Music</NavLink></li>
+          <li><NavLink to="/performances">Performances</NavLink></li>
+          <li><NavLink to="/gallery">Gallery</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
       </div>
     </nav>
