@@ -1,8 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Image from "next/image";
 import Hero from "./hero";
-import About from "./about/page";
 /*import { GoogleOAuthProvider } from '@react-oauth/google';
 
 root.render (
