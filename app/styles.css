@@ -11268,6 +11268,21 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+.masonry-grid {
+  display: flex;
+  gap: 16px;
+}
+
+.masonry-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.masonry-item img {
+  border-radius: 8px;
+}
+
 section#contact {
   background-color: #212529;
   background-repeat: no-repeat;
