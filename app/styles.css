@@ -11268,6 +11268,17 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+.card {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: 1px solid #e0e0e0;
+  padding: 12px;
+}
+
 .masonry-grid {
   display: flex;
   gap: 16px;
