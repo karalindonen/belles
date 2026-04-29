@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div className="about-page">
       <h1>About Us</h1>
       <p>
         The Villanova Belles is the newest all-treble a cappella group at Villanova University. Founded in the fall of 2025 by sophomores Katie 
