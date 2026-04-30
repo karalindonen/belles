@@ -21,7 +21,7 @@ export default function Home() {
       </section>
       <section className="section">
         <Link href='/music'>
-        <h2 className="sectionTitle">What We’re Singing</h2>
+        <h2 className="sectionTitle">What We're Singing</h2>
         </Link>
         <div className="embedContainer">
           <iframe
@@ -36,7 +36,7 @@ export default function Home() {
           />
         </div>
         <p className="text">
-          A fun mix of drama, nostalgia, and main character energy—“no body, no crime” brings the chaos, “Thinking of You” adds a soft throwback moment, and “II MOST WANTED” feels like a carefree drive with your best friend. Then “In the Kitchen” gets a little messy (in the best way of course), “Fernando” slows things down with dreamy vibes, and “Jessie’s Girl” ends it all with dramatic, sing-your-heart-out energy.
+          A fun mix of drama, nostalgia, and main character energy—“No Body, No Crime” brings the chaos, “Thinking of You” adds a soft throwback moment, and “II MOST WANTED” feels like a carefree drive with your best friend. Then “In the Kitchen” gets a little messy (in the best way of course), “Fernando” slows things down with dreamy vibes, and “Jessie’s Girl” ends it all with dramatic, sing-your-heart-out energy.
         </p>
       </section>
 
@@ -74,7 +74,7 @@ export default function Home() {
         </Link>
         <h2 className="sectionTitle">Where We Perform</h2>
         <p className="text">
-          We perform at Spring Concert, Admitted Students Day, Women’s Basketball Games, Nova Dance, and A Cappella Palooza.
+          We perform at our end of semester concerts, Admitted Students Day, Women's/Men's Basketball Games, NOVAdance, and the annual A Cappella Palooza.
         </p>
       </section>
       <section className="section">
@@ -92,7 +92,7 @@ export default function Home() {
         </Link>
         <h2 className="sectionTitle">Interested?</h2>
         <p className="text">
-          If you love music and are looking to join a fun, supportive team, we encourage you to reach out to us! Also, look at the Belle's Instagram for any audition information at the beginning of the semester.
+          If you love music and are looking to join a fun, supportive team, we encourage you to reach out to us! Also, look at the Belles Instagram for any audition information at the beginning of the semester.
         </p>
       </section>
 
