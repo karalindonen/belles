@@ -10955,14 +10955,15 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
-  color: palevioletred;
+  color: white;
+  background-image: url("../public/images/BellesLogo.png");
+  background-size: 65%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-position: center top;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;

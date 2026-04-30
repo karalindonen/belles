@@ -20,7 +20,7 @@ export default function Music() {
 
   return (
     <div className="container-md">
-        <div className="text-center">
+        <div className="text-center mt-5">
           <h1 className="section-heading text-uppercase" style={memberStyle}>Current Setlist</h1>
         </div>
       <div className="container mt-5">
