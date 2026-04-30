@@ -32,7 +32,7 @@ export default function Gallery() {
   return (
     <div className="container-md">
       <div className="text-center">
-          <h1 className="section-heading text-uppercase" style={memberStyle}>Gallery</h1>
+          <h1 className="section-heading text-uppercase mt-5 mb-5" style={memberStyle}>Gallery</h1>
         </div>
       <Masonry
         breakpointCols={breakpointColumns}

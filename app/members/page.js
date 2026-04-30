@@ -48,7 +48,6 @@ export default function Members() {
           {memberImages.map((img, index) => {
   const memberName = filenameTomemberName(img.filename); // "Maya Harner"
   const member = Object.values(members).find(m => m.name === memberName);
-  console.log(member.socials);
 
   return (
     <div key={index} className="col-lg-4 col-sm-6 mb-4">
