@@ -1,6 +1,7 @@
 import React from "react";
 import "./page.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
         </p>
       </section>
       <section className="section">
+        <Link href='/music'>
         <h2 className="sectionTitle">What We’re Singing</h2>
+        </Link>
         <div className="embedContainer">
           <iframe
             className="spotify"
@@ -38,13 +41,15 @@ export default function Home() {
       </section>
 
       <section className="section">
+        <Link href='/members'>
         <Image
           src="/images/Belles/grouppic.jpg"
-          alt="The Belles A Cappella Group Symbol"
+          alt="The Belles A Cappella Group Picture"
           width={800}
           height={500}
           className="image"
         />
+        </Link>
         <h2 className="sectionTitle">Our Members</h2>
         <p className="text">
           Our members do it all—from CLAS to the Engineering School, you’ll find Belles all over campus bringing music wherever they go.
@@ -52,26 +57,30 @@ export default function Home() {
       </section>
 
       <section className="section">
+        <Link href='/performances'>
         <Image
           src="/images/Belles/perform.jpg"
-          alt="The Belles A Cappella Group Symbol"
+          alt="Solo Singer Performing"
           width={800}
           height={500}
           className="image"
         />
+        </Link>
         <h2 className="sectionTitle">Where We Perform</h2>
         <p className="text">
           We perform at Spring Concert, Admitted Students Day, Women’s Basketball Games, Nova Dance, and A Cappella Palooza.
         </p>
       </section>
       <section className="section">
+        <Link href='/contact'>
         <Image
           src="/images/Belles/action.jpg"
-          alt="The Belles A Cappella Group Symbol"
+          alt="The Belles A Cappella Group singing on Stage together all holding mics"
           width={800}
           height={500}
           className="image"
         />
+        </Link>
         <h2 className="sectionTitle">Interested?</h2>
         <p className="text">
           If you love music and are looking to join a fun, supportive team, we encourage you to reach out to us! Also, look at the Belle's Instagram for any audition information at the beginning of the semester.
