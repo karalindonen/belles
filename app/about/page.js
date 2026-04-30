@@ -2,9 +2,9 @@ export default function About() {
   return (
     <main className="about-page container py-5">
       <div className="row justify-content-center">
-        <h1 className="section-heading text-center text-uppercase style={memberStyle}">About Us</h1>
+        <h1 className="section-heading text-center text-uppercase" style={memberStyle}>About Us</h1>
         
-        <div className ="about-card p-4 p-md-5 shadow-sm">
+        <div className ="about-card p-4 p-md-5">
         <p className="lead mb-4">
           The Villanova Belles is the newest all-treble a cappella group at Villanova University. Founded in the fall of 2025 by sophomores Katie 
           Koslow and Maya Harner, the Belles were created to provide more opportunities for Villanova students to pursue their passion for music in a
@@ -26,4 +26,4 @@ export default function About() {
 const memberStyle = {
 color: "lightskyblue",
   padding: '10px'
-}
+};
