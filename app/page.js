@@ -6,8 +6,8 @@ import { text } from "node:stream/consumers";
 
 export default function Home() {
   return (
-    <main className="page">
-      <section className="hero">
+    <main className="home-page container py-5">
+      <section className="hero text-center mb-5">
         <Image
           src="/images/BellesLogo.png"
           alt="The Belles A Cappella Group Symbol"
@@ -16,13 +16,13 @@ export default function Home() {
           className="image"
         />
         <h1 className="title">The Belles</h1>
-        <p className="subtitle">
+        <p className="lead">
           Meet the Belles! The newest a cappella group at Villanova. Full of vibrant energy and killer beats, the Belles are sure to knock you off your feet!
         </p>
       </section>
-      <section className="section">
+      <section className="section mb-5">
         <Link href='/music'>
-        <h2 className="sectionTitle">What We're Singing</h2>
+        <h2 className="text-center mb-3">What We're Singing</h2>
         </Link>
         <div className="embedContainer">
           <iframe
@@ -36,12 +36,12 @@ export default function Home() {
             loading="lazy"
           />
         </div>
-        <p className="text">
+        <p className="text-muted">
           A fun mix of drama, nostalgia, and main character energy—“No Body, No Crime” brings the chaos, “Thinking of You” adds a soft throwback moment, and “II MOST WANTED” feels like a carefree drive with your best friend. Then “In the Kitchen” gets a little messy (in the best way of course), “Fernando” slows things down with dreamy vibes, and “Jessie’s Girl” ends it all with dramatic, sing-your-heart-out energy.
         </p>
       </section>
 
-      <section className="section">
+      <section className="section mb-5">
         <Link href='/members' className="imageWrapper">
         <Image
           src="/images/Belles/grouppic.jpg"
@@ -55,12 +55,12 @@ export default function Home() {
         </div>
         </Link>
         <h2 className="sectionTitle">Our Members</h2>
-        <p className="text">
-          Our members do it all—from CLAS to the Engineering School, you’ll find Belles all over campus bringing music wherever they go.
+        <p className="text-muted">
+          Our members do it all—from CLAS to the Engineering School, you'll find Belles all over campus bringing music wherever they go.
         </p>
       </section>
 
-      <section className="section">
+      <section className="section mb-5">
         <Link href='/performances' className= "imageWrapper">
         <Image
           src="/images/Belles/perform.jpg"
@@ -74,11 +74,11 @@ export default function Home() {
         </div>
         </Link>
         <h2 className="sectionTitle">Where We Perform</h2>
-        <p className="text">
+        <p className="text-muted">
           We perform at our end of semester concerts, Admitted Students Day, Women's/Men's Basketball Games, NOVAdance, and the annual A Cappella Palooza.
         </p>
       </section>
-      <section className="section">
+      <section className="section mb-5">
         <Link href='/contact' className= 'imageWrapper'>
         <Image
           src="/images/Belles/action.jpg"
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         </Link>
         <h2 className="sectionTitle">Interested?</h2>
-        <p className="text">
+        <p className="text-muted">
           If you love music and are looking to join a fun, supportive team, we encourage you to reach out to us! Also, look at the Belles Instagram for any audition information at the beginning of the semester.
         </p>
       </section>
