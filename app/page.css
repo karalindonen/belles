@@ -1,4 +1,3 @@
-/* PAGE LAYOUT */
 h1, h2, h3, p {
   margin: 0;
 }
@@ -28,7 +27,6 @@ h1, h2, h3, p {
   line-height: 1.6;
 }
 
-/* SECTIONS */
 .section {
   max-width: 800px;
   margin: 0 auto 20px auto;
@@ -40,14 +38,12 @@ h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
-/* TEXT */
 .text {
   font-size: 16px;
   line-height: 1.7;
   opacity: 0.85;
 }
 
-/* SPOTIFY */
 .embedContainer {
   margin-bottom: 20px;
 }
@@ -62,4 +58,42 @@ h1, h2, h3, p {
   display: block;
   max-width: 100%;
   height: auto;
+  transition: transform 0.4s ease;
+}
+
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.overlayText {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.imageWrapper:hover .image {
+  transform: scale(1.08);
+}
+
+.imageWrapper:hover .overlay {
+  opacity: 1;
 }

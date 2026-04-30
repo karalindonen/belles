@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <Link href='/members'>
+        <Link href='/members' className="imageWrapper">
         <Image
           src="/images/Belles/grouppic.jpg"
           alt="The Belles A Cappella Group Picture"
@@ -49,6 +49,9 @@ export default function Home() {
           height={500}
           className="image"
         />
+        <div className="overlay">
+            <span className="overlayText">Meet the Members</span>
+        </div>
         </Link>
         <h2 className="sectionTitle">Our Members</h2>
         <p className="text">
@@ -57,7 +60,7 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <Link href='/performances'>
+        <Link href='/performances' className= "imageWrapper">
         <Image
           src="/images/Belles/perform.jpg"
           alt="Solo Singer Performing"
@@ -65,6 +68,9 @@ export default function Home() {
           height={500}
           className="image"
         />
+        <div className="overlay">
+            <span className="overlayText">See us sing!</span>
+        </div>
         </Link>
         <h2 className="sectionTitle">Where We Perform</h2>
         <p className="text">
@@ -72,7 +78,7 @@ export default function Home() {
         </p>
       </section>
       <section className="section">
-        <Link href='/contact'>
+        <Link href='/contact' className= 'imageWrapper'>
         <Image
           src="/images/Belles/action.jpg"
           alt="The Belles A Cappella Group singing on Stage together all holding mics"
@@ -80,6 +86,9 @@ export default function Home() {
           height={500}
           className="image"
         />
+        <div className="overlay">
+            <span className="overlayText">Get Involved!</span>
+        </div>
         </Link>
         <h2 className="sectionTitle">Interested?</h2>
         <p className="text">

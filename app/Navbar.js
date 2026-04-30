@@ -1,5 +1,5 @@
 import React from 'react';
-import './navbar.css'; 
+import './Navbar.css'; 
 import About from "./about/page";
 import Link from 'next/link';
 
