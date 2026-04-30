@@ -2,6 +2,7 @@ import React from "react";
 import "./page.css";
 import Image from "next/image";
 import Link from "next/link";
+import { text } from "node:stream/consumers";
 
 export default function Home() {
   return (
@@ -89,4 +90,11 @@ export default function Home() {
 
     </main>
   );
+}
+
+const homeStyle = {
+  backgroundColor: "white"
+}
+const textStyle = {
+  color: "lightskyblue"
 }
