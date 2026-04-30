@@ -41,7 +41,7 @@ export default function Members() {
   return (
     <div>
       <div className="container-md">
-        <div className="text-center">
+        <div className="text-center mt-5 mb-5">
           <h1 className="section-heading text-uppercase" style={memberStyle}>Current Members</h1>
         </div>
         <div className="row">
