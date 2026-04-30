@@ -31,7 +31,33 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
+
+        <footer className="footer">
+          <div className="footerLinks">
+            <a href="https://www.instagram.com/villanovabelles/">
+              <img
+                src='/images/instalogo.png'
+                alt="Instagram"
+                width="28"
+                height="28"
+              />
+              </a>
+            <a
+              href="mailto:kkoslow@villanova.edu"
+              className="footerIconLink"
+            >
+              <img
+                src="/images/emaillogo.png"
+                alt="Email"
+                width="28"
+                height="28"
+              />
+            </a>
+
+          </div>
+        </footer>
       </body>
+       
 
     </html>
   );
